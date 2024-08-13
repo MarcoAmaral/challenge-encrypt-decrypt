@@ -1,5 +1,3 @@
-// const secretKey = 'mySecretKey123';
-
 function processText(mode) {
   const input = document.getElementById('input').value;
 
@@ -37,33 +35,6 @@ function decryptText(text) {
     .replace(/ober/g, 'o')
     .replace(/ufat/g, 'u');
 }
-
-// function processText(mode) {
-//   const input = document.getElementById('input').value;
-
-//   // Validate input
-//   if (!validateInput(input)) {
-//     showToast('❌ Texto inválido. Use apenas letras minúsculas e sem acentos.');
-//     return;
-//   }
-
-//   let result;
-
-//   if (mode === 'encrypt') {
-//     result = CryptoJS.AES.encrypt(input, secretKey).toString();
-//   } else {
-//     try {
-//       result = CryptoJS.AES.decrypt(input, secretKey).toString(CryptoJS.enc.Utf8);
-//       if (!result) {
-//         throw new Error('Decryption failed');
-//       }
-//     } catch (error) {
-//       result = 'Texto criptografado inválido ou chave incorreta';
-//     }
-//   }
-
-//   document.getElementById('output').value = result;
-// }
 
 function validateInput(input) {
   // Regular expression to match only lowercase letters, numbers, and basic punctuation
