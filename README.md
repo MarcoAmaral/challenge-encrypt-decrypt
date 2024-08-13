@@ -10,7 +10,7 @@ Este modulo tem por objetivo criar um sistama simples de criptografar e descript
 </details>
 
 ## Imagem de capa
-![Thumbnail GitHub][def]
+J:\Alura-ONE\Deploys\challenge-encrypt-decrypt\assets\img\front-end-challenge-criptografar_cescriptograr-texto.png
 
 # Nome do projeto
 Criptografar e Descriptograr textos com base uma uma palvra chave.
@@ -34,4 +34,3 @@ Botão para copiar o texto para area de transferencia.
 ## 📁 Acesso ao projeto
 O projeto esta disponivel no repositorio do meu Github sob a licensa MIT.
 
-[def]: ./assets/img/front-end-challenge-criptografar_cescriptograr-texto.png#
